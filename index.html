@@ -1,24 +1,62 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<style type="text/css">
-<!--
-body {
-	background-color: #141414;
-}
-body,td,th {
-	font-family: Arial Black, Gadget, sans-serif;
-}
--->
-</style></head>
+<!DOCTYPE html>
+<html>
 
-<body bgcolor="#141414" text="#FFFFFF">
 <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 <title>Earthworks Builders @ github</title>
+<style type="text/css">
+	body {
+		background-color: #efefef;
+		color: #000;
+		font-family: Georgia, serif;
+	}
+	h1, h2, h3 {
+		color: #999;
+	}
+	a {
+		color: #bc7134;
+		text-decoration: none;
+	}
+	p.info {
+		width: 80%;
+		background-color: #ddd;
+		color: #666;
+		padding: .4em;
+		padding-left: 1.5em;
+	}
+</style>
+<link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" charset="utf-8" />
+<script src="scripts/jquery-1.6.1.min.js" type="text/javascript"></script>
+<script src="scripts/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
 </head>
+
 <body>
 <h1>Earthworks Builders</h1>
+
+<h3>blog</h3>
+follow the development process at <a href="http://meet-the-earthworks-builders.posterous.com/">meet-the-earthworks-builders.posterous.com</a>
+
+<h3>demos</h3>
+<p class="info">
+these demos require flash player 11 or greater. <br/>
+you can test your flash player version at <a href="http://www.adobe.com/software/flash/about/">www.adobe.com/software/flash/about</a><br/>
+download the latest version of the free flash player at <a href="http://get.adobe.com/flashplayer/">get.adobe.com/flashplayer</a>
+</p>
+<ul>
+<li><a href="demos/NodeTest.swf?width=1024&height=768&base=demos" rel="prettyPhoto[flash]" title="Node Test">node test (2012.02)</a></li>
+<li><a href="demos/SkyboxNewark.swf?width=800&height=600&base=demos" rel="prettyPhoto[flash]" title="Skybox Test">skybox test (2012.01)</a></li>
+<li><a href="demos/SkySphere.swf?width=1024&height=768" rel="prettyPhoto[flash]" title="Skysphere Test">skysphere test (2012.01)</a></li>
+</ul>
+
+<script type="text/javascript" charset="utf-8">
+  $(document).ready(function(){
+    $("a[rel^='prettyPhoto']").prettyPhoto({
+    	keyboard_shortcuts: false,
+    	wmode: 'direct'
+    });
+  });
+</script>
 </body>
-website forthcoming
+
 </html>
 
